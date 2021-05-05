@@ -10,7 +10,7 @@ public class Apple extends Fruits{
 		quantity = q;
 		price = p;
 		
-		System.out.println("\nFruits\t\t : " + n);
+		System.out.println("\nFruit\t\t : " + n);
 		if (quantity<10) {
 			System.out.println("Quantity bought  : " + quantity);
 			System.out.printf("Price per "+ n + "  : RM%.2f\n", p);
